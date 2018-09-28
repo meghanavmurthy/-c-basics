@@ -1,0 +1,14 @@
+#include<stdio.h>
+void main()
+{
+    int a,b,s;
+    printf("enter the two numbers to add?");
+    scanf("%d%d",&a,&b);
+    s=a+b;
+    printf("the sum of %d and %d is %d",a,b,s);
+}
+
+output
+enter the two numbers to add?3                                                                                                 
+4                                                                                                                              
+the sum of 3 and 4 is 7      
